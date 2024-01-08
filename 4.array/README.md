@@ -49,4 +49,19 @@ syntax:
        datatype[][] var_name = {{arr1},{arr2},....,{arrN}};
 ```
 
+## ArrayList
+ -When we don't want to set a fixed size or length of array because either you don't know how many elements yo may want to update.
+  Here's when ArrayList comes into the picture.
+ - Syntax:<br>
+   `ArrayList<Integer> list = new ArrayList<Integer>(10);`
+##### Some methods:
+     - `add()` : Adds a new elements to the ArrayList
+     - `set(index, value)` : Updates an existing value for a specified index.
+     - `get(ndex)` : Used to retieve an existing value for a specified index.
+
+##### Internal Working of ArrayLists
+  Actually size of the ArrayList is fxed but not permanently.
+  It can change according to the input you provide.
+   
+
     
