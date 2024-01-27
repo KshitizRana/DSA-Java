@@ -2,7 +2,7 @@ package com.kshitiz;
 
 public class Matrixdiasum {
     public static void main(String[] args) {
-        int []
+//        int []
     }
     static int diagonalSum(int[][] mat) {
         int sum=0;
